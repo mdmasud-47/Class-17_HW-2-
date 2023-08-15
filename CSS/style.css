@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+.row{
+  display: flex;
+}
+#sidebar {
+  background-color: lightblue;
+  width: 300px;
+  margin-left: -300px;
+}
+#sidebar .more ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 10px 30px;
+  display:block;
+  border-bottom: 1px solid black;
+}
+#sidebar .more ul li{
+  list-style: none;
+}
+.manu ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 10px 30px;
+}
+.manu ul li{
+  list-style: none;
+}
+.manu button{
+  font-size: 30px;
+  background-color: oldlace;
+  border: none;
+  cursor: pointer;
+}
